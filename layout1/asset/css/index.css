@@ -55,11 +55,31 @@ main{
     margin: 0.5rem;
 }
 
-
 footer{
     text-align: right;
     font-size: 1rem;
     color: #fff;
     padding: 1rem;
 }
+
+/* The entire scrollbar */
+::-webkit-scrollbar {
+    width: 0.5rem; /* Width of the scrollbar */
+  }
+  
+  /* The track (background) of the scrollbar */
+  ::-webkit-scrollbar-track {
+    background: rgba(165, 42, 42, 0.5); 
+  }
+  
+  /* The draggable part of the scrollbar */
+  ::-webkit-scrollbar-thumb {
+    background: #fff; 
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  /* Hover effect for the scrollbar thumb */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 
